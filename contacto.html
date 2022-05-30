@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VALDIVIA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VALDIVIA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container-fluid">
+</head>
+
+<body>
+  <div class="container-fluid">
     <!--aca mi header con su logo-->
-    <header> 
+    <header>
       <div id="superior" class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="logo.jpg" alt="" width="50" height="44" class="d-inline-block align-text-top">
@@ -18,75 +21,151 @@
             <h2>Valdivia</h2>
           </a>
     </header>
-    
+
     <!--menu de navegacion con hamburguesa-->
     <div class="container-fluid">
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
           <span class="navbar-toggler-icon"></span>
         </button>
-      <nav class="navbar navbar-expand-lg bg-light">
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html"> <h4>Inicio</h4></a>
-                  </li>
-                
-                  <li class="nav-item">
-                    <a class="nav-link" href="noticias.html"> <h4>Noticias</h4> </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html"> <h4>Contacto</h4></a>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    </div>
-     <!--portada imagenes con 2 columnas centradas-->
-     <div class="row justify-content-center">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">
+                  <h4>Inicio</h4>
+                </a>
+              </li>
 
-      <h1>MAPA DE CONTACTO</h1>
-  <p>Además, una sección de teléfonos útiles, direcciones y un mapa de la
-    ciudad./p>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">
+                  <h4>Noticias</h4>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">
+                  <h4>Contacto</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+    </div>
+    </nav>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="centrado" src="img/costanera-de-valdivia-foto-por-plataforma-urbana.jpg" class="d-block w-80 "
+          alt="imgc1">
+      </div>
+      <div class="carousel-item">
+        <img class="centrado" src="img/img1.jpg" class="d-block w-80" alt="imgc2">
+      </div>
+      <div class="carousel-item">
+        <img class="centrado" src="img/Valdivia_Chilean_Capture_Costanera.jpg" class="d-block w-80" alt="imgc3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--portada imagenes con 2 columnas centradas-->
+  <div class="row justify-content-center">
     <div class="card-group">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Contacto</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mapa</h5>
-           
-            
-            
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Direcciones</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="img/fono-png.png" class="card-img-top" alt="imgfono" style="width: 100px; ;">
+          <h5 class="card-title"> NUMEROS IMPORTANTES</h5>
+          <table class="table">
+            <tr>
+              <td>INSTITUCIÓN</td>
+              <td>TELEFÓNO</td>
+            </tr>
+            <tr>
+              <td>Fono Familia</td>
+              <td>149</td>
+            </tr>
+            <tr>
+              <td>Fono ambulancia</td>
+              <td>131</td>
+            </tr>
+            <tr>
+              <td>Fono bomberos</td>
+              <td>132</td>
+            </tr>
+            <tr>
+              <td>Fono carabineros</td>
+              <td>133</td>
+            </tr>
+            <tr>
+              <td>Fono Violencia contra la Mujer</td>
+              <td>1455</td>
+            </tr>
+          </table>
         </div>
       </div>
+      <div class="card">
+        <h5 class="card-title">Mapa</h5>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.72122648901!2d-73.2508258!3d-39.8132446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9615eddf9b27a3e7%3A0x2c00302b47a06b1a!2sMuseo%20Hist%C3%B3rico%20y%20Antropol%C3%B3gico%20Maurice%20van%20de%20Maele!5e0!3m2!1ses-419!2scl!4v1653873310026!5m2!1ses-419!2scl"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/direccion.png" class="card-img-top" alt="imgfono" style="width: 100px; ;">
+        <div class="card-body">
+          <h5 class="card-title">Direcciones Importantes</h5>
+          <table class="table">
+            <tr>
+              <td>INSTITUCIÓN</td>
+              <td>DIRECCIÓN</td>
+            </tr>
+            <tr>
+              <td>Correos de chile</td>
+              <td>O'Higgins 575, Valdivia, Los Ríos</td>
+            </tr>
+            <tr>
+              <td>Centro de mediación familiar</td>
+              <td>Lago del Toro n°2781, Valdivia</td>
+            </tr>
+            <tr>
+              <td>Costanera Valdivia</td>
+              <td>Av. Arturo Prat, Valdivia, Los Ríos</td>
+            </tr>
+            <tr>
+              <td>Carabineros</td>
+              <td>Beauchef 1025, Valdivia, Los Ríos</td>
+            </tr>
+            <tr>
+              <td>1° Cia Bomberos</td>
+              <td>Los Lingues 500, Valdivia, Los Ríos</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
-
-<br>
-<!--footer para enviar correo-->
-<footer >
+  <a href="index.html">Volver a la pagina principal</a>
   <br>
-  <p id="foot">Todos los derechos reservados 2022, Mi sitio web. Diseñado por: Monica Reyes R. </p>
+  <!--footer para enviar correo-->
+  <footer>
+    <br>
+    <p id="foot">Todos los derechos reservados 2022, Mi sitio web. Diseñado por: Monica Reyes R. </p>
   </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
